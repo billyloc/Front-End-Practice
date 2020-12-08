@@ -414,3 +414,25 @@ footer .column i + i {
 		margin-top: 8vmin;
 	}
 }
+
+
+@media only screen and (max-width: 320px) {
+	.section-4 .card {
+		width: 18vmin;
+	}
+
+	.section-4 .carousel-inner {
+		margin-left: -14vmin;
+	}
+}
+
+/*Sticky Class*/
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: rgba(0,0,0,0.815);
+	z-index: 9999;
+	transition: all 1.5s ease;
+}
